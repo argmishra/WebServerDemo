@@ -12,22 +12,16 @@ Server needs to scale to many concurrent users and be efficient. Propose improve
 
         		
 ## Solution
-1. File present -  
-2. File absent - 
-3. Image download - 
-4. Actuator end point -  (http://localhost:8080/actuator)
-5. Swagger Integration -  (http://localhost:8080/swagger-ui.html)
-6. Generic Exception Handling and Validations -  (Refer to java classes)
-7. In Memory Database -  (Refer properties file) 
-8. Run Script - 
-9. Unit Testing - 
-10. Integration Testing - 
-11. Code Coverage - 
-
-// Save log
-// Take image from project folder
-// Test
-// Code clean up
+1. File present - Implemented 
+2. File absent - Implemented
+3. Image download - Implemented
+4. Actuator end point - Implemented (http://localhost:8080/actuator)
+5. Swagger Integration - Implemented (http://localhost:8080/swagger-ui.html)
+6. Generic Exception Handling and Validations - Implemented (Refer to java classes)
+7. In Memory Database -  Implemented (Refer properties file) 
+8. Run Script - Implemented
+9. Integration Testing - Implemented
+10. Code Coverage - Implemented
 
 
 ```curl
@@ -35,7 +29,5 @@ curl -X GET "http://localhost:8080/ping?path=/home/amishra/repo/anurag/a.txt" -H
 
 curl -X GET "http://localhost:8080/ping?path=/home/amishra/repo/anurag" -H "Content-Type: application/json"
 
-curl -X GET "http://localhost:8080/image"
-
-
+Open in browser = http://localhost:8080/image
 ```
