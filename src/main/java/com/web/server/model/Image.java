@@ -26,6 +26,6 @@ public class Image {
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Long id;
 
-  @Column (name = "checked")
+  @Column (name = "message")
   private String message ;
 }
