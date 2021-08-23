@@ -27,7 +27,7 @@ public class ImageControllerIntegrationTests {
 
   @Test
   public void findFileByPath_found() throws Exception {
-    mockMvc.perform(get("/image").
+    mockMvc.perform(get("/img").
         contentType(MediaType.APPLICATION_JSON)).
         andExpect(status().isOk());
 

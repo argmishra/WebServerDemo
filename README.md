@@ -29,5 +29,5 @@ curl -X GET "http://localhost:8080/ping?path=/home/amishra/repo/anurag/a.txt" -H
 
 curl -X GET "http://localhost:8080/ping?path=/home/amishra/repo/anurag" -H "Content-Type: application/json"
 
-Open in browser = http://localhost:8080/image
+Open in browser = http://localhost:8080/img
 ```

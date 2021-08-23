@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.io.IOException;
 
 @RestController
-@RequestMapping("image")
+@RequestMapping("img")
 @Slf4j
 public class ImageController {
 
